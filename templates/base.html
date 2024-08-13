@@ -81,11 +81,41 @@
           <div class="sb-sidenav-menu">
             <div class="nav">
               <div class="sb-sidenav-menu-heading">Core</div>
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="{% url 'index' %}">
                 <div class="sb-nav-link-icon">
                   <i class="fas fa-tachometer-alt"></i>
                 </div>
-                Dashboard
+                หน้าแรก
+              </a>
+              <a class="nav-link" href="{% url 'about' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                เกี่ยวกับฉัน
+              </a>
+              <a class="nav-link" href="{% url 'contact' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                ติดต่อ
+              </a>
+              <a class="nav-link" href="{% url 'table' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                หน้าสำหรับการทดสอบ
+              </a>
+              <a class="nav-link" href="{% url 'card' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                หน้าการ์ด
+              </a>
+              <a class="nav-link" href="{% url 'color' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                การ์ดสี
               </a>
               <div class="sb-sidenav-menu-heading">Interface</div>
               <a

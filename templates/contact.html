@@ -1,1 +1,80 @@
 {% extends "base.html" %}
+<!---->
+{% block contant %}
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        color: #0056b3;
+      }
+      form {
+        background-color: #ffffff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      button {
+        background-color: #0056b3;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #004494;
+      }
+      a {
+        color: #0056b3;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .social-media {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ติดต่อเรา</h1>
+    <div class="social-media">
+      <h2>ติดตามเราได้ที่:</h2>
+      <img class="resized-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" style="width: 20%;" alt="Instagram Logo">
+      <p>
+        <a href="https://www.instagram.com/akarapol_gun" target="_blank"
+          >กดตรงนี้</a>
+      </p>
+    </div>
+  </body>
+</html>
+
+{% endblock contant %}

@@ -1,5 +1,17 @@
 {% extends "base.html" %}
 <!---->
-{% block content %}
-
-{% endblock content %}
+{% block contant %}
+<div class="row">
+  {% for i in list %}
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card card-hover card-wrapper" style="width: 100%;">
+        <img src="https://scontent-bkk1-1.xx.fbcdn.net/v/t39.30808-6/428616273_1198112834497527_5723092732330610786_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFlWV-n-QFd9TXglE6JpAO6WZdUOx2d5lhZl1Q7HZ3mWICd6VCmLmd78etyNAXxgU16mtMYBtqb1vqFssfRHc6K&_nc_ohc=L8LLOPJn5kgQ7kNvgE6d1GL&_nc_ht=scontent-bkk1-1.xx&oh=00_AYBBHopt7J6jfS3UITKSlogcLkg0ezFZeG_MdoPtmJ9Z_Q&oe=66C0DBE2" class="card-img" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">กันน้อย ซอยยิ้ก</h5>
+          <p class="card-text">FACEBOOK</p>
+          <a href="#" class="btn btn-primary">วาร์ป</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock contant %}
